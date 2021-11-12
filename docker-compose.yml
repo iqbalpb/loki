@@ -5,21 +5,21 @@ networks:
 
 services:
   loki:
-    image: grafana/loki:2.4.0
+    image: grafana/loki:2.4.1
+    volumes:
+      - ./loki/config.yaml:/etc/loki/config.yaml
+      - ./loki/data:/data/loki
     ports:
       - "3100:3100"
-    volumes:
-      - ./loki/loki-config.yaml:/etc/loki/loki-config.yaml
-      - ./loki:/data/loki
-    command: -config.file=./loki-config.yaml
+    command: -config.file=/etc/loki/local-config.yaml
     networks:
       - loki
 
   promtail:
-    image: grafana/promtail:2.4.0
+    image: grafana/promtail:2.4.1
     volumes:
-      - ./promtail/promtail-config.yml:/etc/promtail/promtail-config.yml    
-    command: -config.file=./promtail-config.yml
+      - ./promtail/config.yml:/etc/promtail/config.yml
+    command: -config.file=/etc/promtail/config.yml
     networks:
       - loki
 
@@ -27,7 +27,5 @@ services:
     image: grafana/grafana:latest
     ports:
       - "3000:3000"
-    volumes:
-      - ./grafana:/var/lib/grafana
     networks:
       - loki
