@@ -1,0 +1,866 @@
+Nov 14 00:01:14 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2546 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2546/lib:/snap/microk8s/2546/usr/lib:/snap/microk8s/2546/lib/x86_64-linux-gnu:/snap/microk8s/2546/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2546/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2546/args/kubelite
+Nov 14 00:01:14 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 14 00:01:14 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 14 00:01:14 notebook gdm-password]: gkr-pam: unable to locate daemon control file
+Nov 14 00:01:14 notebook gdm-password]: gkr-pam: stashed password to try later in open session
+Nov 14 00:01:14 notebook gdm-password]: pam_unix(gdm-password:session): session opened for user iqbal by (uid=0)
+Nov 14 00:01:14 notebook systemd-logind[1015]: New session 2 of user iqbal.
+Nov 14 00:01:14 notebook systemd: pam_unix(systemd-user:session): session opened for user iqbal by (uid=0)
+Nov 14 00:01:14 notebook gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov 14 00:01:16 notebook gnome-keyring-daemon[3500]: The Secret Service was already initialized
+Nov 14 00:01:16 notebook gnome-keyring-daemon[3500]: The PKCS#11 component was already initialized
+Nov 14 00:01:17 notebook polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.86 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Nov 14 00:01:19 notebook gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 14 00:01:19 notebook systemd-logind[1015]: Session c1 logged out. Waiting for processes to exit.
+Nov 14 00:01:19 notebook systemd-logind[1015]: Removed session c1.
+Nov 14 00:01:19 notebook polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.42, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+Nov 14 00:01:22 notebook PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 14 00:01:22 notebook PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 14 00:02:22 notebook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov 14 00:02:22 notebook pkexec[5216]: iqbal: Executing command [USER=root] [TTY=unknown] [CWD=/home/iqbal] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 14 00:02:29 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2546 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2546/lib:/snap/microk8s/2546/usr/lib:/snap/microk8s/2546/lib/x86_64-linux-gnu:/snap/microk8s/2546/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2546/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2546/args/kubelite
+Nov 14 00:02:29 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 14 00:02:29 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 14 00:05:01 notebook CRON[11323]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 00:05:01 notebook CRON[11323]: pam_unix(cron:session): session closed for user root
+Nov 14 00:09:12 notebook gnome-keyring-daemon[3500]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 14 00:15:01 notebook CRON[28232]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 00:15:01 notebook CRON[28232]: pam_unix(cron:session): session closed for user root
+Nov 14 00:17:01 notebook CRON[32123]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 00:17:01 notebook CRON[32123]: pam_unix(cron:session): session closed for user root
+Nov 14 00:25:01 notebook CRON[46176]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 00:25:01 notebook CRON[46176]: pam_unix(cron:session): session closed for user root
+Nov 14 00:30:55 notebook gnome-keyring-daemon[3500]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 14 00:35:01 notebook CRON[63837]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 00:35:01 notebook CRON[63837]: pam_unix(cron:session): session closed for user root
+Nov 14 00:43:56 notebook gnome-keyring-daemon[3500]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 14 00:44:04 notebook gnome-keyring-daemon[3500]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 14 00:45:01 notebook CRON[80405]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 00:45:01 notebook CRON[80405]: pam_unix(cron:session): session closed for user root
+Nov 14 00:45:07 notebook systemd-logind[1015]: Power key pressed.
+Nov 14 00:45:17 notebook systemd-logind[1015]: System is powering down.
+Nov 14 09:18:40 notebook systemd-logind[1010]: New seat seat0.
+Nov 14 09:18:40 notebook systemd-logind[1010]: Watching system buttons on /dev/input/event2 (Power Button)
+Nov 14 09:18:40 notebook systemd-logind[1010]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 14 09:18:40 notebook systemd-logind[1010]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Nov 14 09:18:40 notebook systemd-logind[1010]: Watching system buttons on /dev/input/event7 (Logitech Wireless Keyboard PID:4023)
+Nov 14 09:18:40 notebook sshd[1268]: Server listening on 0.0.0.0 port 22.
+Nov 14 09:18:40 notebook sshd[1268]: Server listening on :: port 22.
+Nov 14 09:18:40 notebook systemd-logind[1010]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+Nov 14 09:18:40 notebook systemd-logind[1010]: Watching system buttons on /dev/input/event5 (HP WMI hotkeys)
+Nov 14 09:18:40 notebook gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Nov 14 09:18:40 notebook systemd-logind[1010]: New session c1 of user gdm.
+Nov 14 09:18:40 notebook systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Nov 14 09:18:42 notebook polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Nov 14 09:19:02 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2546 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2546/lib:/snap/microk8s/2546/usr/lib:/snap/microk8s/2546/lib/x86_64-linux-gnu:/snap/microk8s/2546/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2546/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2546/args/kubelite
+Nov 14 09:19:02 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 14 09:19:02 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 14 09:19:17 notebook gdm-password]: gkr-pam: unable to locate daemon control file
+Nov 14 09:19:17 notebook gdm-password]: gkr-pam: stashed password to try later in open session
+Nov 14 09:19:17 notebook gdm-password]: pam_unix(gdm-password:session): session opened for user iqbal by (uid=0)
+Nov 14 09:19:17 notebook systemd-logind[1010]: New session 2 of user iqbal.
+Nov 14 09:19:17 notebook systemd: pam_unix(systemd-user:session): session opened for user iqbal by (uid=0)
+Nov 14 09:19:17 notebook gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov 14 09:19:18 notebook gnome-keyring-daemon[3454]: The Secret Service was already initialized
+Nov 14 09:19:18 notebook gnome-keyring-daemon[3454]: The PKCS#11 component was already initialized
+Nov 14 09:19:19 notebook polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.85 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Nov 14 09:19:22 notebook gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 14 09:19:22 notebook systemd-logind[1010]: Session c1 logged out. Waiting for processes to exit.
+Nov 14 09:19:22 notebook systemd-logind[1010]: Removed session c1.
+Nov 14 09:19:22 notebook polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.34, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+Nov 14 09:19:25 notebook PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 14 09:19:25 notebook PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 14 09:19:25 notebook gnome-keyring-daemon[3454]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 14 09:19:33 notebook gnome-keyring-daemon[3454]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 14 09:19:35 notebook PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 14 09:19:36 notebook systemd: pam_unix(systemd-user:session): session closed for user gdm
+Nov 14 09:19:38 notebook PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 14 09:19:42 notebook PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 14 09:19:42 notebook PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 14 09:19:50 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 14 09:19:50 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 14 09:19:50 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 14 09:20:24 notebook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov 14 09:20:24 notebook pkexec[8148]: iqbal: Executing command [USER=root] [TTY=unknown] [CWD=/home/iqbal] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 14 09:25:01 notebook CRON[16489]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 09:25:01 notebook CRON[16489]: pam_unix(cron:session): session closed for user root
+Nov 14 09:30:01 notebook CRON[24605]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 09:30:01 notebook CRON[24605]: pam_unix(cron:session): session closed for user root
+Nov 14 09:35:01 notebook CRON[33294]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 09:35:01 notebook CRON[33294]: pam_unix(cron:session): session closed for user root
+Nov 14 09:45:01 notebook CRON[49223]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 09:45:01 notebook CRON[49223]: pam_unix(cron:session): session closed for user root
+Nov 14 09:55:01 notebook CRON[65902]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 09:55:01 notebook CRON[65902]: pam_unix(cron:session): session closed for user root
+Nov 14 10:05:01 notebook CRON[82397]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 10:05:01 notebook CRON[82397]: pam_unix(cron:session): session closed for user root
+Nov 14 10:15:01 notebook CRON[98064]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 10:15:01 notebook CRON[98064]: pam_unix(cron:session): session closed for user root
+Nov 14 10:17:01 notebook CRON[101278]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 10:17:01 notebook CRON[101278]: pam_unix(cron:session): session closed for user root
+Nov 14 10:25:01 notebook CRON[114742]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 10:25:01 notebook CRON[114742]: pam_unix(cron:session): session closed for user root
+Nov 14 10:30:01 notebook CRON[122882]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 10:30:01 notebook CRON[122882]: pam_unix(cron:session): session closed for user root
+Nov 14 10:35:01 notebook CRON[131790]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 10:35:01 notebook CRON[131790]: pam_unix(cron:session): session closed for user root
+Nov 14 10:45:01 notebook CRON[147757]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 10:45:01 notebook CRON[147757]: pam_unix(cron:session): session closed for user root
+Nov 14 10:55:01 notebook CRON[164156]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 10:55:01 notebook CRON[164156]: pam_unix(cron:session): session closed for user root
+Nov 14 11:05:01 notebook CRON[180665]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 11:05:01 notebook CRON[180665]: pam_unix(cron:session): session closed for user root
+Nov 14 11:15:01 notebook CRON[196113]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 11:15:01 notebook CRON[196113]: pam_unix(cron:session): session closed for user root
+Nov 14 11:17:01 notebook CRON[199268]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 11:17:01 notebook CRON[199268]: pam_unix(cron:session): session closed for user root
+Nov 14 11:25:01 notebook CRON[212466]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 11:25:01 notebook CRON[212466]: pam_unix(cron:session): session closed for user root
+Nov 14 11:30:01 notebook CRON[220347]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 11:30:01 notebook CRON[220347]: pam_unix(cron:session): session closed for user root
+Nov 14 11:35:01 notebook CRON[228971]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 11:35:01 notebook CRON[228971]: pam_unix(cron:session): session closed for user root
+Nov 14 11:45:01 notebook CRON[244628]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 11:45:01 notebook CRON[244628]: pam_unix(cron:session): session closed for user root
+Nov 14 11:55:01 notebook CRON[260946]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 11:55:01 notebook CRON[260946]: pam_unix(cron:session): session closed for user root
+Nov 14 12:05:01 notebook CRON[278170]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 12:05:01 notebook CRON[278170]: pam_unix(cron:session): session closed for user root
+Nov 14 12:15:01 notebook CRON[293854]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 12:15:01 notebook CRON[293854]: pam_unix(cron:session): session closed for user root
+Nov 14 12:17:01 notebook CRON[297017]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 12:17:01 notebook CRON[297017]: pam_unix(cron:session): session closed for user root
+Nov 14 12:25:01 notebook CRON[310410]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 12:25:01 notebook CRON[310410]: pam_unix(cron:session): session closed for user root
+Nov 14 12:30:01 notebook CRON[318226]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 12:30:01 notebook CRON[318226]: pam_unix(cron:session): session closed for user root
+Nov 14 12:35:01 notebook CRON[326870]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 12:35:01 notebook CRON[326870]: pam_unix(cron:session): session closed for user root
+Nov 14 12:45:01 notebook CRON[342582]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 12:45:01 notebook CRON[342582]: pam_unix(cron:session): session closed for user root
+Nov 14 12:55:01 notebook CRON[359090]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 12:55:01 notebook CRON[359090]: pam_unix(cron:session): session closed for user root
+Nov 14 13:05:01 notebook CRON[375544]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 13:05:01 notebook CRON[375544]: pam_unix(cron:session): session closed for user root
+Nov 14 13:15:01 notebook CRON[391127]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 13:15:01 notebook CRON[391127]: pam_unix(cron:session): session closed for user root
+Nov 14 13:17:01 notebook CRON[394256]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 13:17:01 notebook CRON[394256]: pam_unix(cron:session): session closed for user root
+Nov 14 13:25:01 notebook CRON[407567]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 13:25:01 notebook CRON[407567]: pam_unix(cron:session): session closed for user root
+Nov 14 13:30:01 notebook CRON[415364]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 13:30:01 notebook CRON[415364]: pam_unix(cron:session): session closed for user root
+Nov 14 13:35:01 notebook CRON[423950]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 13:35:01 notebook CRON[423950]: pam_unix(cron:session): session closed for user root
+Nov 14 13:45:01 notebook CRON[439588]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 13:45:01 notebook CRON[439588]: pam_unix(cron:session): session closed for user root
+Nov 14 14:12:23 notebook systemd-logind[1010]: Operation 'sleep' finished.
+Nov 14 14:12:33 notebook gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=iqbal
+Nov 14 14:12:38 notebook gdm-password]: gkr-pam: unlocked login keyring
+Nov 14 14:15:01 notebook CRON[450509]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 14:15:01 notebook CRON[450509]: pam_unix(cron:session): session closed for user root
+Nov 14 14:17:01 notebook CRON[453639]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 14:17:01 notebook CRON[453639]: pam_unix(cron:session): session closed for user root
+Nov 14 14:25:01 notebook CRON[466052]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 14:25:01 notebook CRON[466052]: pam_unix(cron:session): session closed for user root
+Nov 14 14:30:01 notebook CRON[474661]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 14:30:01 notebook CRON[474661]: pam_unix(cron:session): session closed for user root
+Nov 14 14:35:01 notebook CRON[482786]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 14:35:01 notebook CRON[482786]: pam_unix(cron:session): session closed for user root
+Nov 14 14:38:45 notebook gnome-keyring-daemon[3454]: asked to register item /org/freedesktop/secrets/collection/login/3, but it's already registered
+Nov 14 14:38:49 notebook gnome-keyring-daemon[3454]: asked to register item /org/freedesktop/secrets/collection/login/4, but it's already registered
+Nov 14 14:45:01 notebook CRON[499628]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 14:45:01 notebook CRON[499628]: pam_unix(cron:session): session closed for user root
+Nov 14 14:55:01 notebook CRON[515370]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 14:55:01 notebook CRON[515370]: pam_unix(cron:session): session closed for user root
+Nov 14 15:05:01 notebook CRON[531659]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 15:05:01 notebook CRON[531659]: pam_unix(cron:session): session closed for user root
+Nov 14 15:15:01 notebook CRON[547941]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 15:15:01 notebook CRON[547941]: pam_unix(cron:session): session closed for user root
+Nov 14 15:17:01 notebook CRON[551212]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 15:17:01 notebook CRON[551212]: pam_unix(cron:session): session closed for user root
+Nov 14 15:25:01 notebook CRON[563759]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 15:25:01 notebook CRON[563759]: pam_unix(cron:session): session closed for user root
+Nov 14 15:30:01 notebook CRON[572152]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 15:30:01 notebook CRON[572152]: pam_unix(cron:session): session closed for user root
+Nov 14 15:35:01 notebook CRON[580082]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 15:35:01 notebook CRON[580082]: pam_unix(cron:session): session closed for user root
+Nov 14 15:45:01 notebook CRON[596455]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 15:45:01 notebook CRON[596455]: pam_unix(cron:session): session closed for user root
+Nov 14 15:55:01 notebook CRON[612889]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 15:55:01 notebook CRON[612889]: pam_unix(cron:session): session closed for user root
+Nov 14 16:05:01 notebook CRON[629200]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 16:05:01 notebook CRON[629200]: pam_unix(cron:session): session closed for user root
+Nov 14 16:15:01 notebook CRON[646616]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 16:15:01 notebook CRON[646616]: pam_unix(cron:session): session closed for user root
+Nov 14 16:17:01 notebook CRON[649984]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 16:17:01 notebook CRON[649984]: pam_unix(cron:session): session closed for user root
+Nov 14 16:25:01 notebook CRON[663063]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 16:25:01 notebook CRON[663063]: pam_unix(cron:session): session closed for user root
+Nov 14 16:30:01 notebook CRON[671672]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 16:30:01 notebook CRON[671672]: pam_unix(cron:session): session closed for user root
+Nov 14 16:35:01 notebook CRON[679646]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 16:35:01 notebook CRON[679646]: pam_unix(cron:session): session closed for user root
+Nov 14 16:45:01 notebook CRON[693985]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 16:45:01 notebook CRON[693985]: pam_unix(cron:session): session closed for user root
+Nov 14 16:55:01 notebook CRON[694849]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 16:55:01 notebook CRON[694849]: pam_unix(cron:session): session closed for user root
+Nov 14 16:55:49 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 14 16:55:49 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 14 16:55:49 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 14 17:00:29 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 14 17:00:29 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 14 17:00:29 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 14 17:05:01 notebook CRON[704821]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 17:05:01 notebook CRON[704821]: pam_unix(cron:session): session closed for user root
+Nov 14 17:15:01 notebook CRON[721158]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 17:15:01 notebook CRON[721158]: pam_unix(cron:session): session closed for user root
+Nov 14 17:17:01 notebook CRON[724285]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 17:17:01 notebook CRON[724285]: pam_unix(cron:session): session closed for user root
+Nov 14 17:25:01 notebook CRON[728646]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 17:25:01 notebook CRON[728646]: pam_unix(cron:session): session closed for user root
+Nov 14 17:28:53 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 14 17:28:53 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 14 17:28:53 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 14 17:30:01 notebook CRON[731131]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 17:30:01 notebook CRON[731131]: pam_unix(cron:session): session closed for user root
+Nov 14 17:35:01 notebook CRON[739096]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 17:35:01 notebook CRON[739096]: pam_unix(cron:session): session closed for user root
+Nov 14 17:45:01 notebook CRON[755287]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 17:45:01 notebook CRON[755287]: pam_unix(cron:session): session closed for user root
+Nov 14 17:55:02 notebook CRON[770867]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 17:55:02 notebook CRON[770867]: pam_unix(cron:session): session closed for user root
+Nov 14 18:05:01 notebook CRON[787138]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 18:05:01 notebook CRON[787138]: pam_unix(cron:session): session closed for user root
+Nov 14 18:15:01 notebook CRON[803287]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 18:15:01 notebook CRON[803287]: pam_unix(cron:session): session closed for user root
+Nov 14 18:17:01 notebook CRON[806367]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 18:17:01 notebook CRON[806367]: pam_unix(cron:session): session closed for user root
+Nov 14 18:25:01 notebook CRON[818922]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 18:25:01 notebook CRON[818922]: pam_unix(cron:session): session closed for user root
+Nov 14 18:30:01 notebook CRON[828284]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 18:30:01 notebook CRON[828284]: pam_unix(cron:session): session closed for user root
+Nov 14 18:31:58 notebook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov 14 18:31:58 notebook pkexec[831304]: iqbal: Executing command [USER=root] [TTY=unknown] [CWD=/home/iqbal] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 14 18:35:01 notebook CRON[836045]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 18:35:01 notebook CRON[836045]: pam_unix(cron:session): session closed for user root
+Nov 14 18:40:26 notebook polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:iqbal to gain TEMPORARY authorization for action org.fortinet.fortitray.quit for unix-process:844448:3370725 [sh -c pkexec /bin/bash /opt/forticlient/stop-scheduler.sh] (owned by unix-user:iqbal)
+Nov 14 18:40:26 notebook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov 14 18:40:26 notebook pkexec[844449]: iqbal: Executing command [USER=root] [TTY=unknown] [CWD=/home/iqbal] [COMMAND=/bin/bash /opt/forticlient/stop-scheduler.sh]
+Nov 14 18:45:01 notebook CRON[852550]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 18:45:01 notebook CRON[852550]: pam_unix(cron:session): session closed for user root
+Nov 14 18:55:01 notebook CRON[868450]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 18:55:01 notebook CRON[868450]: pam_unix(cron:session): session closed for user root
+Nov 14 19:05:01 notebook CRON[884854]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 19:05:01 notebook CRON[884854]: pam_unix(cron:session): session closed for user root
+Nov 14 19:15:01 notebook CRON[901183]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 19:15:01 notebook CRON[901183]: pam_unix(cron:session): session closed for user root
+Nov 14 19:17:01 notebook CRON[904310]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 19:17:01 notebook CRON[904310]: pam_unix(cron:session): session closed for user root
+Nov 14 19:17:05 notebook sudo:    iqbal : TTY=pts/0 ; PWD=/home/iqbal ; USER=root ; COMMAND=/usr/bin/nmap -sU -O
+Nov 14 19:17:05 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 14 19:17:05 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 14 19:17:18 notebook sudo:    iqbal : TTY=pts/0 ; PWD=/home/iqbal ; USER=root ; COMMAND=/usr/bin/nmap -sU -O vaidyashaala.com
+Nov 14 19:17:18 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 14 19:19:06 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 14 19:19:25 notebook sudo:    iqbal : TTY=pts/0 ; PWD=/home/iqbal ; USER=root ; COMMAND=/usr/bin/nmap -sU -O vaidyashaala.com
+Nov 14 19:19:25 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 14 19:19:46 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 14 19:19:57 notebook sudo:    iqbal : TTY=pts/0 ; PWD=/home/iqbal ; USER=root ; COMMAND=/usr/bin/nmap -sS -O -p443 vaidyashaala.com
+Nov 14 19:19:57 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 14 19:20:05 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 14 19:25:01 notebook CRON[917136]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 19:25:01 notebook CRON[917136]: pam_unix(cron:session): session closed for user root
+Nov 14 19:30:01 notebook CRON[925593]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 19:30:01 notebook CRON[925593]: pam_unix(cron:session): session closed for user root
+Nov 14 19:34:42 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 14 19:34:42 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 14 19:34:42 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 14 19:35:01 notebook CRON[932373]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 19:35:01 notebook CRON[932373]: pam_unix(cron:session): session closed for user root
+Nov 14 19:45:01 notebook CRON[947162]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 19:45:01 notebook CRON[947162]: pam_unix(cron:session): session closed for user root
+Nov 14 19:55:01 notebook CRON[962013]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 19:55:01 notebook CRON[962013]: pam_unix(cron:session): session closed for user root
+Nov 14 20:04:47 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 14 20:04:47 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 14 20:04:47 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 14 20:05:01 notebook CRON[970654]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 20:05:01 notebook CRON[970654]: pam_unix(cron:session): session closed for user root
+Nov 14 20:15:01 notebook CRON[986155]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 20:15:01 notebook CRON[986155]: pam_unix(cron:session): session closed for user root
+Nov 14 20:17:01 notebook CRON[989122]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 20:17:01 notebook CRON[989122]: pam_unix(cron:session): session closed for user root
+Nov 14 20:25:01 notebook CRON[1001455]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 20:25:01 notebook CRON[1001455]: pam_unix(cron:session): session closed for user root
+Nov 14 20:30:01 notebook CRON[1009747]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 20:30:01 notebook CRON[1009747]: pam_unix(cron:session): session closed for user root
+Nov 14 20:35:01 notebook CRON[1017475]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 20:35:01 notebook CRON[1017475]: pam_unix(cron:session): session closed for user root
+Nov 14 20:45:01 notebook CRON[1033487]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 20:45:01 notebook CRON[1033487]: pam_unix(cron:session): session closed for user root
+Nov 14 20:55:01 notebook CRON[1048914]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 20:55:01 notebook CRON[1048914]: pam_unix(cron:session): session closed for user root
+Nov 14 21:05:01 notebook CRON[1064983]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 21:05:01 notebook CRON[1064983]: pam_unix(cron:session): session closed for user root
+Nov 14 21:15:01 notebook CRON[1081015]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 21:15:01 notebook CRON[1081015]: pam_unix(cron:session): session closed for user root
+Nov 14 21:17:01 notebook CRON[1084111]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 21:17:01 notebook CRON[1084111]: pam_unix(cron:session): session closed for user root
+Nov 14 21:25:01 notebook CRON[1096776]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 21:25:01 notebook CRON[1096776]: pam_unix(cron:session): session closed for user root
+Nov 14 21:30:01 notebook CRON[1105282]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 21:30:01 notebook CRON[1105282]: pam_unix(cron:session): session closed for user root
+Nov 14 21:35:01 notebook CRON[1113239]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 21:35:01 notebook CRON[1113239]: pam_unix(cron:session): session closed for user root
+Nov 14 21:45:01 notebook CRON[1129078]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 21:45:01 notebook CRON[1129078]: pam_unix(cron:session): session closed for user root
+Nov 14 21:55:02 notebook CRON[1130008]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 21:55:02 notebook CRON[1130008]: pam_unix(cron:session): session closed for user root
+Nov 14 21:59:53 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 14 21:59:53 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 14 21:59:53 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 14 22:05:01 notebook CRON[1139307]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 22:05:01 notebook CRON[1139307]: pam_unix(cron:session): session closed for user root
+Nov 14 22:15:01 notebook CRON[1155271]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 22:15:01 notebook CRON[1155271]: pam_unix(cron:session): session closed for user root
+Nov 14 22:17:01 notebook CRON[1158320]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 22:17:01 notebook CRON[1158320]: pam_unix(cron:session): session closed for user root
+Nov 14 22:25:01 notebook CRON[1170647]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 22:25:01 notebook CRON[1170647]: pam_unix(cron:session): session closed for user root
+Nov 14 22:30:01 notebook CRON[1178928]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 22:30:01 notebook CRON[1178928]: pam_unix(cron:session): session closed for user root
+Nov 14 22:35:01 notebook CRON[1186957]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 22:35:01 notebook CRON[1186957]: pam_unix(cron:session): session closed for user root
+Nov 14 22:45:01 notebook CRON[1203023]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 22:45:01 notebook CRON[1203023]: pam_unix(cron:session): session closed for user root
+Nov 14 22:55:01 notebook CRON[1218571]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 22:55:01 notebook CRON[1218571]: pam_unix(cron:session): session closed for user root
+Nov 14 23:05:01 notebook CRON[1234696]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 23:05:01 notebook CRON[1234696]: pam_unix(cron:session): session closed for user root
+Nov 14 23:09:54 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 14 23:09:54 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 14 23:09:54 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 14 23:15:01 notebook CRON[1252233]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 23:15:01 notebook CRON[1252233]: pam_unix(cron:session): session closed for user root
+Nov 14 23:17:01 notebook CRON[1255283]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 23:17:01 notebook CRON[1255283]: pam_unix(cron:session): session closed for user root
+Nov 14 23:25:01 notebook CRON[1267551]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 23:25:01 notebook CRON[1267551]: pam_unix(cron:session): session closed for user root
+Nov 14 23:30:01 notebook CRON[1275993]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 23:30:01 notebook CRON[1275993]: pam_unix(cron:session): session closed for user root
+Nov 14 23:35:01 notebook CRON[1283912]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 23:35:01 notebook CRON[1283912]: pam_unix(cron:session): session closed for user root
+Nov 14 23:37:48 notebook systemd-logind[1010]: Watching system buttons on /dev/input/event15 (OnePlus Bullets Wireless Z (AVRCP))
+Nov 14 23:45:01 notebook CRON[1299845]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 23:45:01 notebook CRON[1299845]: pam_unix(cron:session): session closed for user root
+Nov 14 23:55:01 notebook CRON[1315072]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 23:55:01 notebook CRON[1315072]: pam_unix(cron:session): session closed for user root
+Nov 14 23:59:01 notebook CRON[1321673]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 14 23:59:01 notebook CRON[1321673]: pam_unix(cron:session): session closed for user root
+Nov 15 00:05:01 notebook CRON[1330768]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 00:05:01 notebook CRON[1330768]: pam_unix(cron:session): session closed for user root
+Nov 15 08:27:39 notebook systemd-logind[988]: New seat seat0.
+Nov 15 08:27:39 notebook systemd-logind[988]: Watching system buttons on /dev/input/event2 (Power Button)
+Nov 15 08:27:39 notebook systemd-logind[988]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 15 08:27:39 notebook systemd-logind[988]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Nov 15 08:27:39 notebook systemd-logind[988]: Watching system buttons on /dev/input/event7 (Logitech Wireless Keyboard PID:4023)
+Nov 15 08:27:39 notebook sshd[1274]: Server listening on 0.0.0.0 port 22.
+Nov 15 08:27:39 notebook sshd[1274]: Server listening on :: port 22.
+Nov 15 08:27:39 notebook systemd-logind[988]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+Nov 15 08:27:39 notebook systemd-logind[988]: Watching system buttons on /dev/input/event5 (HP WMI hotkeys)
+Nov 15 08:27:39 notebook gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Nov 15 08:27:39 notebook systemd-logind[988]: New session c1 of user gdm.
+Nov 15 08:27:39 notebook systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Nov 15 08:27:42 notebook polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Nov 15 08:28:00 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 15 08:28:00 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 08:28:00 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 08:28:10 notebook gdm-password]: gkr-pam: unable to locate daemon control file
+Nov 15 08:28:10 notebook gdm-password]: gkr-pam: stashed password to try later in open session
+Nov 15 08:28:10 notebook gdm-password]: pam_unix(gdm-password:session): session opened for user iqbal by (uid=0)
+Nov 15 08:28:10 notebook systemd-logind[988]: New session 2 of user iqbal.
+Nov 15 08:28:10 notebook systemd: pam_unix(systemd-user:session): session opened for user iqbal by (uid=0)
+Nov 15 08:28:10 notebook gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov 15 08:28:11 notebook gnome-keyring-daemon[3328]: The Secret Service was already initialized
+Nov 15 08:28:11 notebook gnome-keyring-daemon[3328]: The PKCS#11 component was already initialized
+Nov 15 08:28:12 notebook polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Nov 15 08:28:14 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 15 08:28:14 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 08:28:14 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 08:28:15 notebook gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 15 08:28:15 notebook systemd-logind[988]: Session c1 logged out. Waiting for processes to exit.
+Nov 15 08:28:15 notebook systemd-logind[988]: Removed session c1.
+Nov 15 08:28:15 notebook polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.36, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+Nov 15 08:28:20 notebook PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 15 08:28:20 notebook PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 15 08:28:28 notebook PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 15 08:28:28 notebook PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 15 08:28:31 notebook PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 15 08:28:31 notebook PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 15 08:29:16 notebook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov 15 08:29:16 notebook pkexec[6351]: iqbal: Executing command [USER=root] [TTY=unknown] [CWD=/home/iqbal] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 15 08:29:37 notebook gnome-keyring-daemon[3328]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 15 08:29:39 notebook gnome-keyring-daemon[3328]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 15 08:30:01 notebook CRON[9602]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 08:30:01 notebook CRON[9602]: pam_unix(cron:session): session closed for user root
+Nov 15 08:35:01 notebook CRON[18133]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 08:35:01 notebook CRON[18133]: pam_unix(cron:session): session closed for user root
+Nov 15 08:45:01 notebook CRON[34868]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 08:45:01 notebook CRON[34868]: pam_unix(cron:session): session closed for user root
+Nov 15 08:55:01 notebook CRON[51176]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 08:55:01 notebook CRON[51176]: pam_unix(cron:session): session closed for user root
+Nov 15 09:05:01 notebook CRON[68421]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 09:05:01 notebook CRON[68421]: pam_unix(cron:session): session closed for user root
+Nov 15 09:11:19 notebook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov 15 09:11:19 notebook pkexec[79707]: iqbal: Executing command [USER=root] [TTY=unknown] [CWD=/home/iqbal] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 15 09:15:01 notebook CRON[86485]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 09:15:01 notebook CRON[86485]: pam_unix(cron:session): session closed for user root
+Nov 15 09:17:01 notebook CRON[89695]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 09:17:01 notebook CRON[89695]: pam_unix(cron:session): session closed for user root
+Nov 15 09:25:01 notebook CRON[102257]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 09:25:01 notebook CRON[102257]: pam_unix(cron:session): session closed for user root
+Nov 15 09:30:01 notebook CRON[111045]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 09:30:01 notebook CRON[111045]: pam_unix(cron:session): session closed for user root
+Nov 15 09:35:01 notebook CRON[118963]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 09:35:01 notebook CRON[118963]: pam_unix(cron:session): session closed for user root
+Nov 15 09:45:01 notebook CRON[135457]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 09:45:01 notebook CRON[135457]: pam_unix(cron:session): session closed for user root
+Nov 15 09:55:01 notebook CRON[151230]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 09:55:01 notebook CRON[151230]: pam_unix(cron:session): session closed for user root
+Nov 15 10:05:01 notebook CRON[167865]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 10:05:01 notebook CRON[167865]: pam_unix(cron:session): session closed for user root
+Nov 15 10:15:01 notebook CRON[184268]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 10:15:01 notebook CRON[184268]: pam_unix(cron:session): session closed for user root
+Nov 15 10:17:01 notebook CRON[187395]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 10:17:01 notebook CRON[187395]: pam_unix(cron:session): session closed for user root
+Nov 15 10:17:40 notebook systemd-logind[988]: Watching system buttons on /dev/input/event15 (OnePlus Bullets Wireless Z (AVRCP))
+Nov 15 10:17:57 notebook systemd-logind[988]: System is powering down.
+Nov 15 12:28:27 notebook systemd-logind[984]: New seat seat0.
+Nov 15 12:28:27 notebook systemd-logind[984]: Watching system buttons on /dev/input/event2 (Power Button)
+Nov 15 12:28:27 notebook systemd-logind[984]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 15 12:28:27 notebook systemd-logind[984]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Nov 15 12:28:27 notebook systemd-logind[984]: Watching system buttons on /dev/input/event7 (Logitech Wireless Keyboard PID:4023)
+Nov 15 12:28:27 notebook sshd[1222]: Server listening on 0.0.0.0 port 22.
+Nov 15 12:28:27 notebook sshd[1222]: Server listening on :: port 22.
+Nov 15 12:28:28 notebook systemd-logind[984]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+Nov 15 12:28:28 notebook systemd-logind[984]: Watching system buttons on /dev/input/event5 (HP WMI hotkeys)
+Nov 15 12:28:28 notebook gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Nov 15 12:28:28 notebook systemd-logind[984]: New session c1 of user gdm.
+Nov 15 12:28:28 notebook systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Nov 15 12:28:30 notebook polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.32 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Nov 15 12:28:47 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 15 12:28:47 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 12:28:47 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 12:28:58 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 15 12:28:58 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 12:28:58 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 12:30:01 notebook CRON[6191]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 12:30:01 notebook CRON[6191]: pam_unix(cron:session): session closed for user root
+Nov 15 12:31:39 notebook gdm-password]: gkr-pam: unable to locate daemon control file
+Nov 15 12:31:39 notebook gdm-password]: gkr-pam: stashed password to try later in open session
+Nov 15 12:31:39 notebook gdm-password]: pam_unix(gdm-password:session): session opened for user iqbal by (uid=0)
+Nov 15 12:31:39 notebook systemd-logind[984]: New session 3 of user iqbal.
+Nov 15 12:31:39 notebook systemd: pam_unix(systemd-user:session): session opened for user iqbal by (uid=0)
+Nov 15 12:31:40 notebook gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov 15 12:31:41 notebook gnome-keyring-daemon[8814]: The Secret Service was already initialized
+Nov 15 12:31:41 notebook gnome-keyring-daemon[8814]: The PKCS#11 component was already initialized
+Nov 15 12:31:42 notebook polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.105 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Nov 15 12:31:45 notebook gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 15 12:31:45 notebook systemd-logind[984]: Session c1 logged out. Waiting for processes to exit.
+Nov 15 12:31:45 notebook systemd-logind[984]: Removed session c1.
+Nov 15 12:31:45 notebook polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.32, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+Nov 15 12:31:48 notebook gnome-keyring-daemon[8814]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 15 12:31:51 notebook PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 15 12:31:51 notebook PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 15 12:32:46 notebook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov 15 12:32:46 notebook pkexec[12749]: iqbal: Executing command [USER=root] [TTY=unknown] [CWD=/home/iqbal] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 15 12:35:01 notebook CRON[16355]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 12:35:01 notebook CRON[16355]: pam_unix(cron:session): session closed for user root
+Nov 15 12:45:01 notebook CRON[32971]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 12:45:01 notebook CRON[32971]: pam_unix(cron:session): session closed for user root
+Nov 15 12:55:01 notebook CRON[47160]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 12:55:01 notebook CRON[47160]: pam_unix(cron:session): session closed for user root
+Nov 15 13:05:01 notebook CRON[59268]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 13:05:01 notebook CRON[59268]: pam_unix(cron:session): session closed for user root
+Nov 15 13:16:31 notebook systemd-logind[984]: Operation 'sleep' finished.
+Nov 15 13:17:13 notebook CRON[71073]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 13:17:13 notebook CRON[71073]: pam_unix(cron:session): session closed for user root
+Nov 15 13:17:13 notebook CRON[71076]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 13:17:13 notebook CRON[71076]: pam_unix(cron:session): session closed for user root
+Nov 15 13:25:01 notebook CRON[80081]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 13:25:01 notebook CRON[80081]: pam_unix(cron:session): session closed for user root
+Nov 15 13:30:01 notebook CRON[85957]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 13:30:01 notebook CRON[85957]: pam_unix(cron:session): session closed for user root
+Nov 15 13:35:01 notebook CRON[92367]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 13:35:01 notebook CRON[92367]: pam_unix(cron:session): session closed for user root
+Nov 15 13:38:35 notebook gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Nov 15 13:38:35 notebook systemd-logind[984]: New session c2 of user gdm.
+Nov 15 13:38:35 notebook systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Nov 15 13:38:37 notebook polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.672 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Nov 15 13:38:40 notebook gdm-password]: gkr-pam: unlocked login keyring
+Nov 15 13:38:51 notebook gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 15 13:38:51 notebook systemd-logind[984]: Session c2 logged out. Waiting for processes to exit.
+Nov 15 13:38:51 notebook systemd-logind[984]: Removed session c2.
+Nov 15 13:38:52 notebook polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.672, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+Nov 15 13:39:10 notebook gnome-keyring-daemon[8814]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 15 13:39:13 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 15 13:39:13 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 13:39:13 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 13:40:15 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 15 13:40:15 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 13:40:15 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 13:45:01 notebook CRON[107890]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 13:45:01 notebook CRON[107890]: pam_unix(cron:session): session closed for user root
+Nov 15 13:45:52 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 15 13:45:52 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 13:45:52 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 13:51:29 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 15 13:51:29 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 13:51:29 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 13:55:01 notebook CRON[123338]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 13:55:01 notebook CRON[123338]: pam_unix(cron:session): session closed for user root
+Nov 15 14:05:01 notebook CRON[140429]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 14:05:01 notebook CRON[140429]: pam_unix(cron:session): session closed for user root
+Nov 15 14:11:27 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 15 14:11:27 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 14:11:27 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 14:15:01 notebook CRON[156269]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 14:15:01 notebook CRON[156269]: pam_unix(cron:session): session closed for user root
+Nov 15 14:17:01 notebook CRON[159965]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 14:17:01 notebook CRON[159965]: pam_unix(cron:session): session closed for user root
+Nov 15 14:19:52 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 15 14:19:52 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 14:19:52 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 14:25:01 notebook CRON[173121]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 14:25:01 notebook CRON[173121]: pam_unix(cron:session): session closed for user root
+Nov 15 14:29:52 notebook gnome-keyring-daemon[8814]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 15 14:30:01 notebook CRON[181373]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 14:30:01 notebook CRON[181373]: pam_unix(cron:session): session closed for user root
+Nov 15 14:31:42 notebook gnome-keyring-daemon[8814]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 15 14:35:01 notebook CRON[190042]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 14:35:01 notebook CRON[190042]: pam_unix(cron:session): session closed for user root
+Nov 15 14:45:01 notebook CRON[206082]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 14:45:01 notebook CRON[206082]: pam_unix(cron:session): session closed for user root
+Nov 15 14:55:01 notebook CRON[222370]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 14:55:01 notebook CRON[222370]: pam_unix(cron:session): session closed for user root
+Nov 15 15:05:01 notebook CRON[238614]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 15:05:01 notebook CRON[238614]: pam_unix(cron:session): session closed for user root
+Nov 15 15:15:01 notebook CRON[254325]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 15:15:01 notebook CRON[254325]: pam_unix(cron:session): session closed for user root
+Nov 15 15:17:01 notebook CRON[258040]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 15:17:01 notebook CRON[258040]: pam_unix(cron:session): session closed for user root
+Nov 15 15:25:01 notebook CRON[271306]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 15:25:01 notebook CRON[271306]: pam_unix(cron:session): session closed for user root
+Nov 15 15:30:01 notebook CRON[279305]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 15:30:01 notebook CRON[279305]: pam_unix(cron:session): session closed for user root
+Nov 15 15:35:01 notebook CRON[288254]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 15:35:01 notebook CRON[288254]: pam_unix(cron:session): session closed for user root
+Nov 15 15:45:01 notebook CRON[304874]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 15:45:01 notebook CRON[304874]: pam_unix(cron:session): session closed for user root
+Nov 15 15:55:01 notebook CRON[321709]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 15:55:01 notebook CRON[321709]: pam_unix(cron:session): session closed for user root
+Nov 15 16:05:01 notebook CRON[338407]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 16:05:01 notebook CRON[338407]: pam_unix(cron:session): session closed for user root
+Nov 15 16:15:01 notebook CRON[354186]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 16:15:01 notebook CRON[354186]: pam_unix(cron:session): session closed for user root
+Nov 15 16:17:01 notebook CRON[357879]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 16:17:01 notebook CRON[357879]: pam_unix(cron:session): session closed for user root
+Nov 15 16:25:01 notebook CRON[370556]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 16:25:01 notebook CRON[370556]: pam_unix(cron:session): session closed for user root
+Nov 15 16:30:01 notebook CRON[378432]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 16:30:01 notebook CRON[378432]: pam_unix(cron:session): session closed for user root
+Nov 15 16:30:06 notebook systemd-logind[984]: Watching system buttons on /dev/input/event7 (Logitech Wireless Keyboard PID:4023)
+Nov 15 16:30:20 notebook systemd-logind[984]: Operation 'sleep' finished.
+Nov 15 16:30:59 notebook gdm-password]: gkr-pam: unlocked login keyring
+Nov 15 16:31:54 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 15 16:31:54 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 16:31:54 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 16:35:01 notebook CRON[386000]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 16:35:01 notebook CRON[386000]: pam_unix(cron:session): session closed for user root
+Nov 15 16:45:01 notebook CRON[401781]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 16:45:01 notebook CRON[401781]: pam_unix(cron:session): session closed for user root
+Nov 15 16:55:01 notebook CRON[418053]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 16:55:01 notebook CRON[418053]: pam_unix(cron:session): session closed for user root
+Nov 15 17:05:01 notebook CRON[434346]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 17:05:01 notebook CRON[434346]: pam_unix(cron:session): session closed for user root
+Nov 15 17:15:01 notebook CRON[450090]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 17:15:01 notebook CRON[450090]: pam_unix(cron:session): session closed for user root
+Nov 15 17:17:01 notebook CRON[453767]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 17:17:01 notebook CRON[453767]: pam_unix(cron:session): session closed for user root
+Nov 15 17:25:01 notebook CRON[466324]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 17:25:01 notebook CRON[466324]: pam_unix(cron:session): session closed for user root
+Nov 15 17:30:01 notebook CRON[474163]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 17:30:01 notebook CRON[474163]: pam_unix(cron:session): session closed for user root
+Nov 15 17:35:01 notebook CRON[482619]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 17:35:01 notebook CRON[482619]: pam_unix(cron:session): session closed for user root
+Nov 15 17:45:01 notebook CRON[498913]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 17:45:01 notebook CRON[498913]: pam_unix(cron:session): session closed for user root
+Nov 15 17:49:38 notebook systemd-logind[984]: Lid closed.
+Nov 15 17:49:38 notebook systemd-logind[984]: Suspending...
+Nov 15 19:30:00 notebook systemd-logind[984]: Lid opened.
+Nov 15 19:30:02 notebook systemd-logind[984]: Operation 'sleep' finished.
+Nov 15 19:30:03 notebook gdm-password]: gkr-pam: unlocked login keyring
+Nov 15 19:30:20 notebook CRON[506388]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 19:30:20 notebook CRON[506388]: pam_unix(cron:session): session closed for user root
+Nov 15 19:30:20 notebook CRON[506390]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 19:30:20 notebook CRON[506390]: pam_unix(cron:session): session closed for user root
+Nov 15 19:35:01 notebook CRON[513906]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 19:35:01 notebook CRON[513906]: pam_unix(cron:session): session closed for user root
+Nov 15 19:37:35 notebook sudo:    iqbal : TTY=pts/0 ; PWD=/home/iqbal ; USER=root ; COMMAND=/usr/bin/apt-get install xclip
+Nov 15 19:37:35 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 19:37:42 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 19:40:18 notebook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov 15 19:40:18 notebook pkexec[523030]: iqbal: Executing command [USER=root] [TTY=unknown] [CWD=/home/iqbal] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 15 19:45:01 notebook CRON[531592]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 19:45:01 notebook CRON[531592]: pam_unix(cron:session): session closed for user root
+Nov 15 19:55:01 notebook CRON[547449]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 19:55:01 notebook CRON[547449]: pam_unix(cron:session): session closed for user root
+Nov 15 20:05:01 notebook CRON[564124]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 20:05:01 notebook CRON[564124]: pam_unix(cron:session): session closed for user root
+Nov 15 20:15:01 notebook CRON[580777]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 20:15:01 notebook CRON[580777]: pam_unix(cron:session): session closed for user root
+Nov 15 20:17:01 notebook CRON[583979]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 20:17:01 notebook CRON[583979]: pam_unix(cron:session): session closed for user root
+Nov 15 20:25:01 notebook CRON[596668]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 20:25:01 notebook CRON[596668]: pam_unix(cron:session): session closed for user root
+Nov 15 20:30:01 notebook CRON[605255]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 20:30:01 notebook CRON[605255]: pam_unix(cron:session): session closed for user root
+Nov 15 20:35:01 notebook CRON[613225]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 20:35:01 notebook CRON[613225]: pam_unix(cron:session): session closed for user root
+Nov 15 20:45:01 notebook CRON[629255]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 20:45:02 notebook CRON[629255]: pam_unix(cron:session): session closed for user root
+Nov 15 20:47:46 notebook sudo:    iqbal : TTY=pts/1 ; PWD=/home/iqbal/Downloads ; USER=root ; COMMAND=/usr/bin/sftp -i vdsla_key.pem azure@vaidyashaala.com
+Nov 15 20:47:46 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 20:47:50 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 20:48:02 notebook sudo:    iqbal : TTY=pts/1 ; PWD=/home/iqbal/Downloads ; USER=root ; COMMAND=/usr/bin/sftp -i vdsla_key.pem azureuser@vaidyashaala.com
+Nov 15 20:48:02 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 20:48:02 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 20:48:04 notebook sudo:    iqbal : TTY=pts/1 ; PWD=/home/iqbal/Downloads ; USER=root ; COMMAND=/usr/bin/sftp -i vdsla_key.pem azureuser@vaidyashaala.com
+Nov 15 20:48:04 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 20:48:15 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 20:49:21 notebook sudo:    iqbal : TTY=pts/1 ; PWD=/home/iqbal/Downloads ; USER=root ; COMMAND=/usr/bin/sftp -i vdsla_key.pem azureuser@vaidyashaala.com
+Nov 15 20:49:21 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 20:55:01 notebook CRON[645056]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 20:55:01 notebook CRON[645056]: pam_unix(cron:session): session closed for user root
+Nov 15 21:05:01 notebook CRON[653048]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 21:05:01 notebook CRON[653048]: pam_unix(cron:session): session closed for user root
+Nov 15 21:05:53 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 15 21:05:53 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 21:05:53 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 21:15:01 notebook CRON[667858]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 21:15:01 notebook CRON[667858]: pam_unix(cron:session): session closed for user root
+Nov 15 21:17:01 notebook CRON[671063]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 21:17:01 notebook CRON[671063]: pam_unix(cron:session): session closed for user root
+Nov 15 21:25:01 notebook CRON[682650]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 21:25:01 notebook CRON[682650]: pam_unix(cron:session): session closed for user root
+Nov 15 21:27:40 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 15 21:27:40 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 21:27:40 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 21:30:01 notebook CRON[686558]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 21:30:01 notebook CRON[686558]: pam_unix(cron:session): session closed for user root
+Nov 15 21:31:16 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 15 21:31:16 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 21:31:16 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 21:35:01 notebook CRON[688939]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 21:35:01 notebook CRON[688939]: pam_unix(cron:session): session closed for user root
+Nov 15 21:45:01 notebook CRON[695216]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 21:45:01 notebook CRON[695216]: pam_unix(cron:session): session closed for user root
+Nov 15 21:51:11 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 15 21:51:11 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 21:51:11 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 21:55:01 notebook CRON[702193]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 21:55:01 notebook CRON[702193]: pam_unix(cron:session): session closed for user root
+Nov 15 22:05:01 notebook CRON[718602]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 22:05:01 notebook CRON[718602]: pam_unix(cron:session): session closed for user root
+Nov 15 22:15:01 notebook CRON[734855]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 22:15:01 notebook CRON[734855]: pam_unix(cron:session): session closed for user root
+Nov 15 22:17:01 notebook CRON[737953]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 22:17:01 notebook CRON[737953]: pam_unix(cron:session): session closed for user root
+Nov 15 22:25:01 notebook CRON[750376]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 22:25:01 notebook CRON[750376]: pam_unix(cron:session): session closed for user root
+Nov 15 22:30:01 notebook CRON[758712]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 22:30:01 notebook CRON[758712]: pam_unix(cron:session): session closed for user root
+Nov 15 22:35:01 notebook CRON[766527]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 22:35:01 notebook CRON[766527]: pam_unix(cron:session): session closed for user root
+Nov 15 22:38:42 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 15 22:38:42 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 22:38:42 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 22:45:01 notebook CRON[781639]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 22:45:01 notebook CRON[781639]: pam_unix(cron:session): session closed for user root
+Nov 15 22:55:01 notebook CRON[797217]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 22:55:01 notebook CRON[797217]: pam_unix(cron:session): session closed for user root
+Nov 15 23:05:01 notebook CRON[811175]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 23:05:01 notebook CRON[811175]: pam_unix(cron:session): session closed for user root
+Nov 15 23:13:54 notebook systemd-logind[984]: Watching system buttons on /dev/input/event7 (Logitech Wireless Keyboard PID:4023)
+Nov 15 23:15:01 notebook CRON[812300]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 23:15:01 notebook CRON[812300]: pam_unix(cron:session): session closed for user root
+Nov 15 23:17:01 notebook CRON[812407]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 23:17:01 notebook CRON[812407]: pam_unix(cron:session): session closed for user root
+Nov 15 23:25:01 notebook CRON[812820]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 23:25:01 notebook CRON[812820]: pam_unix(cron:session): session closed for user root
+Nov 15 23:30:02 notebook CRON[813609]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 23:30:02 notebook CRON[813609]: pam_unix(cron:session): session closed for user root
+Nov 15 23:35:01 notebook CRON[813895]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 23:35:01 notebook CRON[813895]: pam_unix(cron:session): session closed for user root
+Nov 15 23:37:55 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 15 23:37:55 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 15 23:37:55 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 23:45:01 notebook CRON[815878]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 23:45:01 notebook CRON[815878]: pam_unix(cron:session): session closed for user root
+Nov 15 23:53:10 notebook systemd-logind[984]: Power key pressed.
+Nov 15 23:53:14 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 15 23:53:14 notebook systemd-logind[984]: System is powering down.
+Nov 16 07:47:01 notebook systemd-logind[1002]: New seat seat0.
+Nov 16 07:47:01 notebook systemd-logind[1002]: Watching system buttons on /dev/input/event2 (Power Button)
+Nov 16 07:47:02 notebook systemd-logind[1002]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 16 07:47:02 notebook systemd-logind[1002]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Nov 16 07:47:02 notebook systemd-logind[1002]: Watching system buttons on /dev/input/event7 (Logitech Wireless Keyboard PID:4023)
+Nov 16 07:47:02 notebook sshd[1301]: Server listening on 0.0.0.0 port 22.
+Nov 16 07:47:02 notebook sshd[1301]: Server listening on :: port 22.
+Nov 16 07:47:02 notebook systemd-logind[1002]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+Nov 16 07:47:02 notebook systemd-logind[1002]: Watching system buttons on /dev/input/event5 (HP WMI hotkeys)
+Nov 16 07:47:02 notebook gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Nov 16 07:47:02 notebook systemd-logind[1002]: New session c1 of user gdm.
+Nov 16 07:47:02 notebook systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Nov 16 07:47:04 notebook polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Nov 16 07:47:05 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 16 07:47:05 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 16 07:47:05 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 16 07:47:50 notebook gdm-password]: gkr-pam: unable to locate daemon control file
+Nov 16 07:47:50 notebook gdm-password]: gkr-pam: stashed password to try later in open session
+Nov 16 07:47:50 notebook gdm-password]: pam_unix(gdm-password:session): session opened for user iqbal by (uid=0)
+Nov 16 07:47:50 notebook systemd-logind[1002]: New session 2 of user iqbal.
+Nov 16 07:47:50 notebook systemd: pam_unix(systemd-user:session): session opened for user iqbal by (uid=0)
+Nov 16 07:47:50 notebook gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov 16 07:47:52 notebook gnome-keyring-daemon[3755]: The Secret Service was already initialized
+Nov 16 07:47:52 notebook gnome-keyring-daemon[3755]: The PKCS#11 component was already initialized
+Nov 16 07:47:53 notebook polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.85 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Nov 16 07:47:55 notebook gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 16 07:47:55 notebook systemd-logind[1002]: Session c1 logged out. Waiting for processes to exit.
+Nov 16 07:47:55 notebook systemd-logind[1002]: Removed session c1.
+Nov 16 07:47:55 notebook polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+Nov 16 07:47:58 notebook PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 16 07:47:58 notebook PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 16 07:47:59 notebook gnome-keyring-daemon[3755]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 16 07:48:04 notebook gnome-keyring-daemon[3755]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 16 07:48:57 notebook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov 16 07:48:57 notebook pkexec[5938]: iqbal: Executing command [USER=root] [TTY=unknown] [CWD=/home/iqbal] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 16 07:49:41 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 16 07:49:41 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 16 07:49:41 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 16 07:49:41 notebook PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 16 07:49:41 notebook PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 16 07:49:53 notebook PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 16 07:49:53 notebook PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 16 07:49:56 notebook PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 16 07:49:56 notebook PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 16 07:49:59 notebook PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 16 07:49:59 notebook PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 16 07:50:01 notebook PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 16 07:50:01 notebook PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 16 07:50:04 notebook PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 16 07:50:04 notebook PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 16 07:51:56 notebook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov 16 07:51:56 notebook pkexec[14113]: iqbal: Executing command [USER=root] [TTY=unknown] [CWD=/home/iqbal] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 16 07:55:01 notebook CRON[19605]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 07:55:01 notebook CRON[19605]: pam_unix(cron:session): session closed for user root
+Nov 16 08:05:01 notebook CRON[36074]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 08:05:01 notebook CRON[36074]: pam_unix(cron:session): session closed for user root
+Nov 16 08:09:56 notebook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov 16 08:09:56 notebook pkexec[44919]: iqbal: Executing command [USER=root] [TTY=unknown] [CWD=/home/iqbal] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 16 08:12:56 notebook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov 16 08:12:56 notebook pkexec[49853]: iqbal: Executing command [USER=root] [TTY=unknown] [CWD=/home/iqbal] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 16 08:15:01 notebook CRON[53196]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 08:15:01 notebook CRON[53196]: pam_unix(cron:session): session closed for user root
+Nov 16 08:17:01 notebook CRON[56342]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 08:17:01 notebook CRON[56342]: pam_unix(cron:session): session closed for user root
+Nov 16 08:25:01 notebook CRON[69644]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 08:25:01 notebook CRON[69644]: pam_unix(cron:session): session closed for user root
+Nov 16 08:30:01 notebook CRON[77474]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 08:30:01 notebook CRON[77474]: pam_unix(cron:session): session closed for user root
+Nov 16 08:35:01 notebook CRON[86222]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 08:35:01 notebook CRON[86222]: pam_unix(cron:session): session closed for user root
+Nov 16 08:45:01 notebook CRON[103771]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 08:45:01 notebook CRON[103771]: pam_unix(cron:session): session closed for user root
+Nov 16 08:55:01 notebook CRON[120302]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 08:55:01 notebook CRON[120302]: pam_unix(cron:session): session closed for user root
+Nov 16 09:05:01 notebook CRON[136915]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 09:05:01 notebook CRON[136915]: pam_unix(cron:session): session closed for user root
+Nov 16 09:11:34 notebook gnome-keyring-daemon[3755]: asked to register item /org/freedesktop/secrets/collection/login/3, but it's already registered
+Nov 16 09:11:34 notebook gnome-keyring-daemon[3755]: asked to register item /org/freedesktop/secrets/collection/login/4, but it's already registered
+Nov 16 09:15:01 notebook CRON[153282]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 09:15:01 notebook CRON[153282]: pam_unix(cron:session): session closed for user root
+Nov 16 09:17:01 notebook CRON[156513]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 09:17:02 notebook CRON[156513]: pam_unix(cron:session): session closed for user root
+Nov 16 09:20:55 notebook sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=iqbal rhost=  user=iqbal
+Nov 16 09:21:00 notebook sudo:    iqbal : TTY=pts/0 ; PWD=/home/iqbal ; USER=root ; COMMAND=/usr/bin/docker stop 4d7306a7060445cfecf8677c212676d4c1cf63d3f4c77b0cbd315fb1366ca34e
+Nov 16 09:21:00 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 16 09:21:01 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 16 09:24:36 notebook sudo:    iqbal : TTY=pts/0 ; PWD=/home/iqbal/open ; USER=root ; COMMAND=/usr/bin/docker stop 90d
+Nov 16 09:24:36 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 16 09:24:37 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 16 09:25:01 notebook CRON[174093]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 09:25:01 notebook CRON[174093]: pam_unix(cron:session): session closed for user root
+Nov 16 09:25:45 notebook sudo:    iqbal : TTY=pts/0 ; PWD=/home/iqbal/open ; USER=root ; COMMAND=/usr/bin/su -
+Nov 16 09:25:45 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 16 09:25:45 notebook su: (to root) iqbal on pts/0
+Nov 16 09:25:45 notebook su: pam_unix(su-l:session): session opened for user root by (uid=0)
+Nov 16 09:26:34 notebook su: pam_unix(su-l:session): session closed for user root
+Nov 16 09:26:34 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 16 09:27:32 notebook systemd-logind[1002]: Power key pressed.
+Nov 16 09:27:34 notebook systemd-logind[1002]: System is powering down.
+Nov 16 17:02:25 notebook systemd-logind[1023]: New seat seat0.
+Nov 16 17:02:25 notebook systemd-logind[1023]: Watching system buttons on /dev/input/event2 (Power Button)
+Nov 16 17:02:25 notebook systemd-logind[1023]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 16 17:02:25 notebook systemd-logind[1023]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Nov 16 17:02:25 notebook systemd-logind[1023]: Watching system buttons on /dev/input/event7 (Logitech Wireless Keyboard PID:4023)
+Nov 16 17:02:26 notebook systemd-logind[1023]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+Nov 16 17:02:26 notebook sshd[1290]: Server listening on 0.0.0.0 port 22.
+Nov 16 17:02:26 notebook sshd[1290]: Server listening on :: port 22.
+Nov 16 17:02:26 notebook systemd-logind[1023]: Watching system buttons on /dev/input/event10 (HP WMI hotkeys)
+Nov 16 17:02:26 notebook gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Nov 16 17:02:26 notebook systemd-logind[1023]: New session c1 of user gdm.
+Nov 16 17:02:26 notebook systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Nov 16 17:02:29 notebook polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Nov 16 17:02:30 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 16 17:02:30 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 16 17:02:31 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 16 17:02:36 notebook gdm-password]: gkr-pam: unable to locate daemon control file
+Nov 16 17:02:36 notebook gdm-password]: gkr-pam: stashed password to try later in open session
+Nov 16 17:02:36 notebook gdm-password]: pam_unix(gdm-password:session): session opened for user iqbal by (uid=0)
+Nov 16 17:02:36 notebook systemd-logind[1023]: New session 2 of user iqbal.
+Nov 16 17:02:36 notebook systemd: pam_unix(systemd-user:session): session opened for user iqbal by (uid=0)
+Nov 16 17:02:36 notebook gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov 16 17:02:37 notebook gnome-keyring-daemon[3284]: The Secret Service was already initialized
+Nov 16 17:02:37 notebook gnome-keyring-daemon[3284]: The PKCS#11 component was already initialized
+Nov 16 17:02:39 notebook polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.78 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Nov 16 17:02:43 notebook gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 16 17:02:43 notebook systemd-logind[1023]: Session c1 logged out. Waiting for processes to exit.
+Nov 16 17:02:43 notebook systemd-logind[1023]: Removed session c1.
+Nov 16 17:02:43 notebook polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.35, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+Nov 16 17:02:46 notebook gnome-keyring-daemon[3284]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 16 17:02:51 notebook PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 16 17:02:51 notebook PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 16 17:02:57 notebook gnome-keyring-daemon[3284]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 16 17:03:44 notebook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov 16 17:03:44 notebook pkexec[5325]: iqbal: Executing command [USER=root] [TTY=unknown] [CWD=/home/iqbal] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 16 17:04:13 notebook sudo:     root : TTY=unknown ; PWD=/var/snap/microk8s/2646 ; USER=root ; ENV=LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void::/snap/microk8s/2646/lib:/snap/microk8s/2646/usr/lib:/snap/microk8s/2646/lib/x86_64-linux-gnu:/snap/microk8s/2646/usr/lib/x86_64-linux-gnu ; COMMAND=/snap/microk8s/2646/bin/sed -i s;^--start-control-plane=.*;--start-control-plane=true; /var/snap/microk8s/2646/args/kubelite
+Nov 16 17:04:13 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 16 17:04:13 notebook sudo: pam_unix(sudo:session): session closed for user root
+Nov 16 17:05:01 notebook CRON[9064]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 17:05:01 notebook CRON[9064]: pam_unix(cron:session): session closed for user root
+Nov 16 17:15:01 notebook CRON[26124]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 17:15:01 notebook CRON[26124]: pam_unix(cron:session): session closed for user root
+Nov 16 17:17:01 notebook CRON[29336]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 17:17:01 notebook CRON[29336]: pam_unix(cron:session): session closed for user root
+Nov 16 17:25:01 notebook CRON[42531]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 17:25:01 notebook CRON[42531]: pam_unix(cron:session): session closed for user root
+Nov 16 17:30:01 notebook CRON[51908]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 17:30:01 notebook CRON[51908]: pam_unix(cron:session): session closed for user root
+Nov 16 17:35:01 notebook CRON[60567]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 17:35:01 notebook CRON[60567]: pam_unix(cron:session): session closed for user root
+Nov 16 17:45:01 notebook CRON[76581]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 16 17:45:01 notebook CRON[76581]: pam_unix(cron:session): session closed for user root
+Nov 16 17:53:35 notebook sudo:    iqbal : TTY=pts/0 ; PWD=/home/iqbal/emvigo/loki/logs ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log .
+Nov 16 17:53:35 notebook sudo: pam_unix(sudo:session): session opened for user root by (uid=0)

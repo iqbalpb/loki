@@ -1,0 +1,24 @@
+server:
+  http_listen_port: 0
+  grpc_listen_port: 0
+
+positions:
+  filename: /tmp/positions.yaml
+
+clients:
+        - url: http://192.168.0.181:3100/api/prom/push
+
+scrape_configs:
+    - job_name: system
+      pipeline_stages:
+      - replace:
+          expression: '(?:[0-9]{1,3}\.){3}([0-9]{1,3})'
+          replace: '***'
+      static_configs:
+      - targets:
+         - localhost
+        labels:
+         job: log_monitoring
+         host: emvigo_dev_server
+         agent: promtail
+         __path__: /etc/promtail/*.log
